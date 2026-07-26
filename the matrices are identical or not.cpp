@@ -19,8 +19,8 @@ int main(){
         cin>>b[i][j];
         }
     }
-    //for(i=0;i<2;i++){
-        //for(j=0;j<2;j++){
+      for(i=0;i<2;i++){
+          for(j=0;j<2;j++){
             if(a[i][j]==b[i][j])
             {
                 cout<<"the two matrix are identical"<<endl;
@@ -28,8 +28,8 @@ int main(){
             else{
                 cout<<" the two matrix are not identical";
             }
-      //  }
-    //}
+          }
+      }
 
     return 0;
 }
