@@ -11,6 +11,7 @@ class test{
     }
     ~test(){
         cout<<"x"<<x<<endl<<"y="<<y<<endl;
+        cout<<"memory is deallocated"<<endl;
     }
 };
 int main(){
