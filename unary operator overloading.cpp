@@ -13,7 +13,7 @@ class rectangle{
         ++breadth;
     }
     void display(){
-        cout<<"lenth"<<length<<endl<<"breadth"<<breadth<<endl;
+        cout<<"lenth="<<length<<endl<<"breadth="<<breadth<<endl;
     }
 };
 int main(){
