@@ -26,12 +26,13 @@ int main(){
     d1.get();
     d2.get();
     d3=d1+d2;
-    d1.display();
     cout<<"d1";
-    d2.display();
+    d1.display();
     cout<<"d2=";
-    d3.display();
+    d2.display();
     cout<<"d3=";
+    d3.display();
+    
     return 0;
     
 }
