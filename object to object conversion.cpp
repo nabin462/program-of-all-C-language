@@ -13,7 +13,7 @@ class dist{
         inch=i;
     }
     void display(){
-        cout<<feet<<"ft"<<inch<<"inch"<<endl;
+        cout<<feet<<"ft"<<endl<<inch<<"inch"<<endl;
     }
 };
 class dis{
