@@ -9,7 +9,7 @@ class student{
         cin>>name;
     }
     void display(){
-        cout<<"name:"<<name;
+        cout<<"name:"<<name<<endl;
     }
 
 };
@@ -23,7 +23,7 @@ class rol:public student{
     }
     void show(){
         display();
-        cout<<"roll="<<r;
+        cout<<"roll="<<r<<endl;
     }
 };
 class mark:public rol{
@@ -36,7 +36,7 @@ class mark:public rol{
     }
     void displayd(){
         show();
-        cout<<"mark="<<mark;
+        cout<<"mark="<<mark<<endl;
     }
 };
 int main(){
