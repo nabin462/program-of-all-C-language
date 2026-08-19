@@ -16,7 +16,7 @@ int main(){
      cout<<"enter the two float value"<<endl;
     cin>>d>>e;
     cout<<large(d,e)<<"is larger"<<endl;
-    
+
      cout<<"enter the two character"<<endl;
     cin>>f>>g;
     cout<<large(f,g)<<"is  larger ASCII "<<endl;
