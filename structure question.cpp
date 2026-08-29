@@ -14,9 +14,10 @@ int main(){
         cin>>s[i].id>>s[i].mark;
     }
     cout<<"student details"<<endl;
+     cout<<"name\t id\t mark"<<endl;
     for(i=0;i<4;i++){
         if(s[i].mark>=80){
-        cout<<"name\t id\t mark"<<endl;
+       
         cout<<s[i].name<<"\t"<<s[i].id<<"\t"<<s[i].mark<<endl;
         }
     }
