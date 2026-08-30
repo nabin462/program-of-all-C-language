@@ -10,6 +10,7 @@ void sum(int n=5){
 }
 int main(){
     sum();//default argrmebt;
+    cout<<endl;
     sum(50);
     return 0;
 }
